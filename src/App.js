@@ -1,6 +1,6 @@
 import { useState } from "react";
 import dateIdeas from "./dateIdeas.json";
-import { Button, Select } from "antd";
+import { Button, Select, Spin } from "antd";
 import "./App.css";
 
 const dateCategories = [
@@ -34,15 +34,10 @@ function App() {
   };
 
   const content = () => {
-    if (loading) return <p>Loading...</p>;
+    if (loading) return <Spin />;
     if (!activity) return;
 
-    return (
-      <>
-        <h2>{activity.idea}</h2>
-        <p>{activity.category}</p>
-      </>
-    );
+    return <h2>{activity.idea}</h2>;
   };
   return (
     <div className="App">
@@ -62,8 +57,10 @@ function App() {
           ))}
         </Select>
       </div>
-      <Button type="primary" onClick={handleClick}>Click me for an activity</Button>
-      <div className="content">{content()}</div>
+      <Button color="danger" variant="solid" onClick={handleClick}>
+        Surprise Me
+      </Button>
+      <div className="content-section">{content()}</div>
     </div>
   );
 }
