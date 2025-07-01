@@ -2,6 +2,7 @@ import { useState } from "react";
 import dateIdeas from "./dateIdeas.json";
 import { Button, Select, Spin } from "antd";
 import "./App.css";
+import SaveButton from "./components/SaveButton"
 
 const dateCategories = [
   "🌲 Outdoor",
@@ -27,7 +28,9 @@ function App() {
 
   const getRandomIdea = () => {
     const filteredIdeas = dateIdeas.filter((idea) =>
-      dateCategories.includes(category) ? category.includes(idea.category) : true
+      dateCategories.includes(category)
+        ? category.includes(idea.category)
+        : true
     );
     const randomIndex = Math.floor(Math.random() * filteredIdeas.length);
     return filteredIdeas[randomIndex];
@@ -37,7 +40,13 @@ function App() {
     if (loading) return <Spin />;
     if (!activity) return;
 
-    return <h2>{activity.idea}</h2>;
+    return (
+      <div className="date-card">
+        <h2>{activity.idea}</h2>
+        {/* WIP */}
+        <SaveButton/>
+      </div>
+    );
   };
   return (
     <div className="App">

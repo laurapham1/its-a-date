@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -37,6 +41,26 @@
 
 .content-section {
   margin-top: 20px;
+}
+
+.date-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 30px;
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.date-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.save-button {
+  text-align: right;
 }
 
 @keyframes App-logo-spin {
