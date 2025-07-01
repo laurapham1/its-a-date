@@ -1,5 +1,6 @@
 import { useState } from "react";
 import dateIdeas from "./dateIdeas.json";
+import { Button, Select } from "antd";
 import "./App.css";
 
 const dateCategories = [
@@ -34,7 +35,7 @@ function App() {
 
   const content = () => {
     if (loading) return <p>Loading...</p>;
-    if (!activity) return <p>No activity found.</p>;
+    if (!activity) return;
 
     return (
       <>
@@ -46,18 +47,22 @@ function App() {
   return (
     <div className="App">
       <h1>It's a date! 🌹</h1>
-      <label htmlFor="category">Choose a category:</label>
-      <select
-        className="select"
-        onChange={(e) => setCategory(e.target.value)}
-        value={category}
-      >
-        <option value="">Any</option>
-        {dateCategories.map((category) => (
-          <option value={category}>{category}</option>
-        ))}
-      </select>
-      <button onClick={handleClick}>Click me for an activity</button>
+      <div className="category-section">
+        <h3>Choose a category:</h3>
+        <Select
+          className="select"
+          onChange={(value) => setCategory(value)}
+          value={category}
+          defaultValue=""
+          style={{ width: 130 }}
+        >
+          <option value="">Any</option>
+          {dateCategories.map((category) => (
+            <Select.Option value={category}>{category}</Select.Option>
+          ))}
+        </Select>
+      </div>
+      <Button type="primary" onClick={handleClick}>Click me for an activity</Button>
       <div className="content">{content()}</div>
     </div>
   );
