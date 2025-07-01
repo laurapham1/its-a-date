@@ -4,12 +4,12 @@ import { Button, Select, Spin } from "antd";
 import "./App.css";
 
 const dateCategories = [
-  "Outdoor",
-  "Creative",
-  "At Home",
-  "Adventurous",
-  "Food & Drink",
-  "Cosy & Chill",
+  "🌲 Outdoor",
+  "🎨 Creative",
+  "🛋️ At Home",
+  "🧗Adventurous",
+  "🍝 Food & Drink",
+  "📖 Cosy & Chill",
 ];
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
 
   const getRandomIdea = () => {
     const filteredIdeas = dateIdeas.filter((idea) =>
-      dateCategories.includes(category) ? idea.category === category : true
+      dateCategories.includes(category) ? category.includes(idea.category) : true
     );
     const randomIndex = Math.floor(Math.random() * filteredIdeas.length);
     return filteredIdeas[randomIndex];
@@ -49,7 +49,7 @@ function App() {
           onChange={(value) => setCategory(value)}
           value={category}
           defaultValue=""
-          style={{ width: 130 }}
+          style={{ width: 150 }}
         >
           <option value="">Any</option>
           {dateCategories.map((category) => (
