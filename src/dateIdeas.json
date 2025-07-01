@@ -1,0 +1,802 @@
+[
+  {
+    "category": "Outdoor",
+    "idea": "Have a picnic at a local park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Stargaze from a quiet spot"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a hike on a scenic trail"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Walk dogs at a rescue center"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Watch the sunset together"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go kayaking or paddleboarding"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a scenic drive"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Fly a kite at the beach or park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Rent bikes and explore the city"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Visit a botanical garden"
+  },
+  {
+    "category": "Creative",
+    "idea": "Write a short story together"
+  },
+  {
+    "category": "Creative",
+    "idea": "Paint each other\u2019s portraits"
+  },
+  {
+    "category": "Creative",
+    "idea": "Build a DIY craft project"
+  },
+  {
+    "category": "Creative",
+    "idea": "Create a vision board"
+  },
+  {
+    "category": "Creative",
+    "idea": "Do a photoshoot in nature"
+  },
+  {
+    "category": "Creative",
+    "idea": "Design matching t-shirts"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make friendship bracelets"
+  },
+  {
+    "category": "Creative",
+    "idea": "Take a pottery or art class"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make a scrapbook of memories"
+  },
+  {
+    "category": "Creative",
+    "idea": "Try a couple\u2019s dance class at home"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do an at-home spa day"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a board game night"
+  },
+  {
+    "category": "At Home",
+    "idea": "Bake cookies from scratch"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a themed dinner night"
+  },
+  {
+    "category": "At Home",
+    "idea": "Cook a new recipe together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Recreate your first date"
+  },
+  {
+    "category": "At Home",
+    "idea": "Build a pillow fort"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do yoga or stretch together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Watch old home videos"
+  },
+  {
+    "category": "At Home",
+    "idea": "Camp in the living room"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Take a spontaneous road trip"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try a high ropes course"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Do a city-wide scavenger hunt"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Explore a cave or canyon"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Book a mystery destination date"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go bungee jumping"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go ziplining"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try indoor skydiving"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Visit a trampoline park"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go rock climbing"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a wine or beer tasting"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go to a food truck festival"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Create signature cocktails"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try weird food challenges"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Make your own pizza night"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Tour a local brewery"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Visit a chocolate factory"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try a cooking class"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go out for fancy dessert only"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a blindfold taste test"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Create a photo album"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Read a book together"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Have a heart-to-heart talk night"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Listen to music and slow dance"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Do personality quizzes"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Meditate or do breathwork"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch a movie marathon"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Make a list of bucket list goals"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Plan your dream vacation"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch funny YouTube videos"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go kayaking or paddleboarding"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Rent bikes and explore the city"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Walk dogs at a rescue center"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a hike on a scenic trail"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Visit a botanical garden"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Fly a kite at the beach or park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Have a picnic at a local park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Stargaze from a quiet spot"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a scenic drive"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Watch the sunset together"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make a scrapbook of memories"
+  },
+  {
+    "category": "Creative",
+    "idea": "Take a pottery or art class"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make friendship bracelets"
+  },
+  {
+    "category": "Creative",
+    "idea": "Try a couple\u2019s dance class at home"
+  },
+  {
+    "category": "Creative",
+    "idea": "Write a short story together"
+  },
+  {
+    "category": "Creative",
+    "idea": "Paint each other\u2019s portraits"
+  },
+  {
+    "category": "Creative",
+    "idea": "Design matching t-shirts"
+  },
+  {
+    "category": "Creative",
+    "idea": "Create a vision board"
+  },
+  {
+    "category": "Creative",
+    "idea": "Do a photoshoot in nature"
+  },
+  {
+    "category": "Creative",
+    "idea": "Build a DIY craft project"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do an at-home spa day"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a board game night"
+  },
+  {
+    "category": "At Home",
+    "idea": "Recreate your first date"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do yoga or stretch together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Camp in the living room"
+  },
+  {
+    "category": "At Home",
+    "idea": "Cook a new recipe together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Watch old home videos"
+  },
+  {
+    "category": "At Home",
+    "idea": "Bake cookies from scratch"
+  },
+  {
+    "category": "At Home",
+    "idea": "Build a pillow fort"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a themed dinner night"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Take a spontaneous road trip"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try indoor skydiving"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go rock climbing"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Book a mystery destination date"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go bungee jumping"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go ziplining"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try a high ropes course"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Visit a trampoline park"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Explore a cave or canyon"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Do a city-wide scavenger hunt"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go to a food truck festival"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a blindfold taste test"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Create signature cocktails"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a wine or beer tasting"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try a cooking class"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go out for fancy dessert only"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Visit a chocolate factory"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Tour a local brewery"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Make your own pizza night"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try weird food challenges"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Have a heart-to-heart talk night"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Listen to music and slow dance"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Meditate or do breathwork"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch a movie marathon"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Make a list of bucket list goals"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch funny YouTube videos"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Read a book together"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Do personality quizzes"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Create a photo album"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Plan your dream vacation"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Watch the sunset together"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Rent bikes and explore the city"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Walk dogs at a rescue center"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go kayaking or paddleboarding"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Fly a kite at the beach or park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Have a picnic at a local park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a scenic drive"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a hike on a scenic trail"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Stargaze from a quiet spot"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Visit a botanical garden"
+  },
+  {
+    "category": "Creative",
+    "idea": "Paint each other\u2019s portraits"
+  },
+  {
+    "category": "Creative",
+    "idea": "Write a short story together"
+  },
+  {
+    "category": "Creative",
+    "idea": "Try a couple\u2019s dance class at home"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make friendship bracelets"
+  },
+  {
+    "category": "Creative",
+    "idea": "Take a pottery or art class"
+  },
+  {
+    "category": "Creative",
+    "idea": "Design matching t-shirts"
+  },
+  {
+    "category": "Creative",
+    "idea": "Do a photoshoot in nature"
+  },
+  {
+    "category": "Creative",
+    "idea": "Build a DIY craft project"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make a scrapbook of memories"
+  },
+  {
+    "category": "Creative",
+    "idea": "Create a vision board"
+  },
+  {
+    "category": "At Home",
+    "idea": "Cook a new recipe together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Camp in the living room"
+  },
+  {
+    "category": "At Home",
+    "idea": "Recreate your first date"
+  },
+  {
+    "category": "At Home",
+    "idea": "Watch old home videos"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do yoga or stretch together"
+  },
+  {
+    "category": "At Home",
+    "idea": "Bake cookies from scratch"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a themed dinner night"
+  },
+  {
+    "category": "At Home",
+    "idea": "Have a board game night"
+  },
+  {
+    "category": "At Home",
+    "idea": "Do an at-home spa day"
+  },
+  {
+    "category": "At Home",
+    "idea": "Build a pillow fort"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Do a city-wide scavenger hunt"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Book a mystery destination date"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Visit a trampoline park"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go rock climbing"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go bungee jumping"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Take a spontaneous road trip"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try a high ropes course"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Try indoor skydiving"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Go ziplining"
+  },
+  {
+    "category": "Adventurous",
+    "idea": "Explore a cave or canyon"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a blindfold taste test"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Tour a local brewery"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Create signature cocktails"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try weird food challenges"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Try a cooking class"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go out for fancy dessert only"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Go to a food truck festival"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Make your own pizza night"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Visit a chocolate factory"
+  },
+  {
+    "category": "Food & Drink",
+    "idea": "Do a wine or beer tasting"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Listen to music and slow dance"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Read a book together"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Have a heart-to-heart talk night"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Plan your dream vacation"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Create a photo album"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Do personality quizzes"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch a movie marathon"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Meditate or do breathwork"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Make a list of bucket list goals"
+  },
+  {
+    "category": "Cozy & Chill",
+    "idea": "Watch funny YouTube videos"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Visit a botanical garden"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a scenic drive"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Stargaze from a quiet spot"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Fly a kite at the beach or park"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go for a hike on a scenic trail"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Go kayaking or paddleboarding"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Rent bikes and explore the city"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Walk dogs at a rescue center"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Watch the sunset together"
+  },
+  {
+    "category": "Outdoor",
+    "idea": "Have a picnic at a local park"
+  },
+  {
+    "category": "Creative",
+    "idea": "Take a pottery or art class"
+  },
+  {
+    "category": "Creative",
+    "idea": "Create a vision board"
+  },
+  {
+    "category": "Creative",
+    "idea": "Write a short story together"
+  },
+  {
+    "category": "Creative",
+    "idea": "Paint each other\u2019s portraits"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make friendship bracelets"
+  },
+  {
+    "category": "Creative",
+    "idea": "Design matching t-shirts"
+  },
+  {
+    "category": "Creative",
+    "idea": "Do a photoshoot in nature"
+  },
+  {
+    "category": "Creative",
+    "idea": "Try a couple\u2019s dance class at home"
+  },
+  {
+    "category": "Creative",
+    "idea": "Make a scrapbook of memories"
+  },
+  {
+    "category": "Creative",
+    "idea": "Build a DIY craft project"
+  }
+]

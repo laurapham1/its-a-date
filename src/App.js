@@ -1,31 +1,29 @@
 import { useState } from 'react';
+import dateIdeas from './dateIdeas.json';
 import './App.css';
-import fetchActivity from './utils/fetchActivity';
+
+const getRandomIdea = () => {
+  const randomIndex = Math.floor(Math.random() * dateIdeas.length);
+  return dateIdeas[randomIndex];
+}
 
 function App() {
   const [activity, setActivity] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
 
-  const handleClick = async () => {
+  const handleClick = () => {
     setLoading(true);
-    setError(null);
-    try {
-      const data = await fetchActivity();
-      setActivity(data.activity);
-    } catch (err) {
-      setError(err.message);
-    } finally {
+    setTimeout(() => {
+      setActivity(getRandomIdea());
       setLoading(false);
-    }
+    }, 1000); 
   };
 
   const content = () => {
     if (loading) return <p>Loading...</p>;
-    if (error) return <p>Error: {error}</p>;
     if (!activity) return <p>No activity found.</p>;
 
-    return <h2>Activity: {activity}</h2>;
+    return <h2>{activity.idea}</h2>;
   };
   return (
     <div className="App">
