@@ -31,7 +31,6 @@ function App() {
   const [category, setCategory] = useState("");
   const [favourites, setFavourites] = useState([]);
 
-  console.log({ favourites });
   useEffect(() => {
     const storedFavourites = loadFavourites();
     setFavourites(storedFavourites);
@@ -46,7 +45,7 @@ function App() {
     setTimeout(() => {
       setActivity(getRandomIdea());
       setLoading(false);
-    }, 1000);
+    }, 500);
   };
 
   const getRandomIdea = () => {
