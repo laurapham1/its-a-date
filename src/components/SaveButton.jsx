@@ -1,17 +1,16 @@
 import { useState } from "react";
 import { Button } from "antd";
 import "../App.css";
-const SaveButton = () => {
-  const [saved, setSaved] = useState(false);
+const SaveButton = ({toggleFavourite, isFavourited}) => {
 
   const handleToggle = () => {
-    setSaved((prev) => !prev);
+    toggleFavourite();
   };
 
   return (
     <div className="save-button">
       <Button type="text" onClick={handleToggle}>
-        {saved ? "❤️" : "🤍"}
+        {isFavourited ? "❤️" : "🤍"}
       </Button>
     </div>
   );
