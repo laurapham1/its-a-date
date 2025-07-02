@@ -41,6 +41,7 @@ body {
 
 .content-section {
   margin-top: 20px;
+  height: 50vh;
 }
 
 .date-card {
@@ -61,6 +62,17 @@ body {
 
 .save-button {
   text-align: right;
+}
+
+.favourites-section {
+  position: sticky;
+  bottom: 0;
+
+}
+.date-cards {
+  display: flex;
+  gap: 16px;
+  width: 100%;
 }
 
 @keyframes App-logo-spin {
