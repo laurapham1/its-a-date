@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import dateIdeas from "./dateIdeas.json";
-import { Button, Select, Spin } from "antd";
+import { Button, Select, Spin, Drawer } from "antd";
 import "./App.css";
 import DateCard from "./components/DateCard";
 const dateCategories = [
@@ -30,6 +30,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [category, setCategory] = useState("");
   const [favourites, setFavourites] = useState([]);
+  const [openFavourites, setOpenFavourites] = useState(false);
 
   useEffect(() => {
     const storedFavourites = loadFavourites();
@@ -93,22 +94,30 @@ function App() {
         Surprise Me
       </Button>
       <div className="content-section">{content()}</div>
-      <div className="favourites-section">
-        <h3>Favourites ❤️</h3>
-        <div className="date-cards">
-          {favourites.length > 0 ? (
-            favourites.map((fav) => (
-              <DateCard
-                activity={fav}
-                favourites={favourites}
-                setFavourites={setFavourites}
-              />
-            ))
-          ) : (
-            <p>No favourites yet!</p>
-          )}
+      <Button type="text" onClick={() => setOpenFavourites(!openFavourites)}><h3>My Favourites ❤️</h3></Button>
+
+      <Drawer
+        title="My Favourites ❤️"
+        placement={"bottom"}
+        onClose={() => setOpenFavourites(false)}
+        open={openFavourites}
+      >
+        <div className="favourites-section">
+          <div className="date-cards">
+            {favourites.length > 0 ? (
+              favourites.map((fav) => (
+                <DateCard
+                  activity={fav}
+                  favourites={favourites}
+                  setFavourites={setFavourites}
+                />
+              ))
+            ) : (
+              <p>No favourites yet!</p>
+            )}
+          </div>
         </div>
-      </div>
+      </Drawer>
     </div>
   );
 }
