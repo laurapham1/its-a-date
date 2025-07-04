@@ -3,14 +3,7 @@ import dateIdeas from "./dateIdeas.json";
 import { Button, Select, Spin, Drawer } from "antd";
 import "./App.css";
 import DateCard from "./components/DateCard";
-const dateCategories = [
-  "🌲 Outdoor",
-  "🎨 Creative",
-  "🛋️ At Home",
-  "🧗Adventurous",
-  "🍝 Food & Drink",
-  "📖 Cosy & Chill",
-];
+import { dateCategories } from "./utils/dateCategories";
 
 const FAVOURITES_KEY = "favouriteIdeas";
 
@@ -51,7 +44,7 @@ function App() {
 
   const getRandomIdea = () => {
     const filteredIdeas = dateIdeas.filter((idea) =>
-      dateCategories.includes(category)
+      dateCategories[idea.category] === category
         ? category.includes(idea.category)
         : true
     );
@@ -85,7 +78,7 @@ function App() {
           style={{ width: 150 }}
         >
           <option value="">Any</option>
-          {dateCategories.map((category) => (
+          {Object.values(dateCategories).map((category) => (
             <Select.Option value={category}>{category}</Select.Option>
           ))}
         </Select>
@@ -94,7 +87,9 @@ function App() {
         Surprise Me
       </Button>
       <div className="content-section">{content()}</div>
-      <Button type="text" onClick={() => setOpenFavourites(!openFavourites)}><h3>My Favourites ❤️</h3></Button>
+      <Button type="text" onClick={() => setOpenFavourites(!openFavourites)}>
+        <h3>My Favourites ❤️</h3>
+      </Button>
 
       <Drawer
         title="My Favourites ❤️"

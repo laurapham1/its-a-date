@@ -1,4 +1,5 @@
 import SaveButton from "./SaveButton";
+import { dateCategories } from "../utils/dateCategories";
 
 const DateCard = ({ activity, favourites, setFavourites }) => {
   const isFavourited = favourites.some((fav) => fav.idea === activity.idea);
@@ -13,6 +14,7 @@ const DateCard = ({ activity, favourites, setFavourites }) => {
 
   return (
     <div className="date-card">
+      <p>{dateCategories[activity.category]}</p>
       <h2>{activity.idea}</h2>
       <SaveButton
         toggleFavourite={toggleFavourite}
