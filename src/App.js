@@ -43,11 +43,7 @@ function App() {
   };
 
   const getRandomIdea = () => {
-    const filteredIdeas = dateIdeas.filter((idea) =>
-      dateCategories[idea.category] === category
-        ? category.includes(idea.category)
-        : true
-    );
+    const filteredIdeas = dateIdeas.filter((idea) => !category ? true : dateCategories[idea.category] === category);
     const randomIndex = Math.floor(Math.random() * filteredIdeas.length);
     return filteredIdeas[randomIndex];
   };
